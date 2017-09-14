@@ -24,7 +24,7 @@
       "SubnetA": {
         "Type": "AWS::EC2::Subnet",
         "Properties": {
-          "AvailabilityZone": "us-east-2a",
+          "AvailabilityZone": "us-west-2",
           "VpcId" : { "Ref" : "VPC" },
           "CidrBlock": "172.31.0.0/20",
           "MapPublicIpOnLaunch": "true"
@@ -33,7 +33,7 @@
       "SubnetB": {
         "Type": "AWS::EC2::Subnet",
         "Properties": {
-          "AvailabilityZone": "us-east-2b",
+          "AvailabilityZone": "us-west-2",
           "VpcId" : { "Ref" : "VPC"},
           "CidrBlock": "172.31.16.0/20",
           "MapPublicIpOnLaunch": "true"
@@ -42,7 +42,7 @@
       "SubnetC": {
         "Type": "AWS::EC2::Subnet",
         "Properties": {
-          "AvailabilityZone": "us-east-2a",
+          "AvailabilityZone": "us-west-2",
           "VpcId" : { "Ref" : "VPC"},
           "CidrBlock": "172.31.32.0/20",
           "MapPublicIpOnLaunch": "true"
