@@ -1,4 +1,4 @@
-{
+{ Test
   "AWSTemplateFormatVersion": "2010-09-09",
   "Description": "VPC by tessa in 3 AZ with respectivly 3 subnets",
   "Parameters": {
