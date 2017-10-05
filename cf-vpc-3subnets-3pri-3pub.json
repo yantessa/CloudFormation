@@ -576,11 +576,11 @@
       "Properties": {
         "NetworkAclId": {"Ref": "PublicNetworkAcl"},
         "RuleNumber": {"Ref": "AllowSSHToPublicRuleNumber"},
-        "RuleNumber": "6",
+        "Protocol": "6",
         "RuleAction": "allow",
         "Egress": "false",
         "CidrBlock": "0.0.0.0/0",
-        "PortRange": { 
+        "PortRange": {
           "From": "22",
           "To": "22"
         }
