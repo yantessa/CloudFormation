@@ -1025,7 +1025,8 @@
           "Label" : { "default" : "AWS Network ACL Rule Numbers" },
           "Parameters" : [
             "AllowHttpToPublicRuleNumber",
-            "AllowHttpsToPublicRuleNumber",
+            "AllowSSHToPublicRuleNumber",
+            "AllowHttpToPublicRuleNumber",
             "AllowReturnTrafficToPublicRuleNumber",
             "AllowVpcSubnetsRuleNumber",
             "AllowAllOutboundPublicRuleNumber",
